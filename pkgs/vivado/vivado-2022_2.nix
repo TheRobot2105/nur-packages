@@ -106,7 +106,7 @@ let
       homepage = "https://www.xilinx.com/products/design-tools/vivado.html";
       license = lib.licenses.unfree;
       mainProgram = "vivado";
-      sourceProvenance = lib.sourceTypes.binaryNativeCode;
+      sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
     };
   };
 
